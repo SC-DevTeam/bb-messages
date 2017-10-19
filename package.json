@@ -1,44 +1,44 @@
 {
-  "_from": "github:iGio90/cr-messages",
-  "_id": "cr-messages@1.0.0",
+  "_from": "github:SC-DevTeam/bb-messages",
+  "_id": "bb-messages@1.0.0",
   "_inBundle": false,
   "_integrity": "sha1-XUSRoFVCeqfoWfCtMCAoITwShM4=",
-  "_location": "/cr-messages",
+  "_location": "/bb-messages",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "cr-messages@github:iGio90/cr-messages",
-    "name": "cr-messages",
-    "escapedName": "cr-messages",
-    "rawSpec": "github:iGio90/cr-messages",
-    "saveSpec": "github:iGio90/cr-messages",
+    "raw": "bb-messages@github:SC-DevTeam/bb-messages",
+    "name": "bb-messages",
+    "escapedName": "bb-messages",
+    "rawSpec": "github:SC-DevTeam/bb-messages",
+    "saveSpec": "github:SC-DevTeam/bb-messages",
     "fetchSpec": null,
     "gitCommittish": "master"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "github:iGio90/cr-messages#fbe21fb8e0abe71dae0e810edec5c12757101d8a",
-  "_spec": "cr-messages@github:iGio90/cr-messages",
+  "_resolved": "github:SC-DevTeam/bb-messages#fbe21fb8e0abe71dae0e810edec5c12757101d8a",
+  "_spec": "cr-messages@github:SC-DevTeam/bb-messages",
   "_where": "/home/igio90/Projects/GDumper",
   "author": {
     "name": "Royale Proxy"
   },
   "bugs": {
-    "url": "https://github.com/royale-proxy/cr-messages/issues"
+    "url": "https://github.com/SC-DevTeam/bb-messages/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Clash Royale Network Message Definitions",
+  "description": "Boom Beach Network Message Definitions",
   "engines": {
     "node": ">=6.8.0"
   },
-  "homepage": "https://github.com/royale-proxy/cr-messages",
+  "homepage": "https://github.com/SC-DevTeam/bb-messages",
   "license": "GNU GPLv3",
   "name": "cr-messages",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/royale-proxy/cr-messages.git"
+    "url": "git+https://github.com/SC-DevTeam/bb-messages.git"
   },
   "version": "1.0.0"
 }
