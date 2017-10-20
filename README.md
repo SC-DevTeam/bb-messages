@@ -136,3 +136,14 @@ Comments
 --------
 
 Messages and Fields may have a *comment* attribute to document their use.
+
+Unnamed Type Fields
+--------
+
+Fields that are assigned a type (without name or comment), for example:
+
+```
+{"type":"BYTE"}
+```
+
+are possibly unknown or unused.
