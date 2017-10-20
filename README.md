@@ -1,12 +1,9 @@
-Protocol Definition Files
+[Boom Beach] Protocol Definition Files
 =========================
 
-Clash messages are passed between client and server in PDUs containing an integer message identifier
-and a binary payload. The files in this package are used to map the identifier to a message
-structure definition so that the binary payload can be parsed.
+Through Supercell games' protocols, are messages that are passed between the client and server, in PDUs containing an integer message identifier and a binary payload. The files in this package are used to map the identifier to a message structure definition so that the binary payload can be parsed. 
 
-Each message structure is defined in an individual JSON file. The name of the file is not
-significant, but generally it corresponds to the type name of the message.
+The files have message structures, which are formatted in JSON for wide-range compatibility with other languages and allows for simple implementation of parsers. Each file is generally assigned a name for the data that the message carries.
 
 Type System
 ===========
@@ -139,3 +136,14 @@ Comments
 --------
 
 Messages and Fields may have a *comment* attribute to document their use.
+
+Unnamed Type Fields
+--------
+
+Fields that are assigned a type (without name or comment), for example:
+
+```
+{"type":"BYTE"}
+```
+
+are possibly unknown or unused.
