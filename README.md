@@ -1,7 +1,7 @@
 [Boom Beach] Protocol Definition Files
 =========================
 
-Through Supercell games' protocols, are messages that are passed between the client and server, in PDUs containing an integer message identifier and a binary patload. The files in this package are used to map the identifier to a message structure definition so that the binary payload can be parsed. 
+Through Supercell games' protocols, are messages that are passed between the client and server, in PDUs containing an integer message identifier and a binary payload. The files in this package are used to map the identifier to a message structure definition so that the binary payload can be parsed. 
 
 The files have message structures, which are formatted in JSON for wide-range compatibility with other languages and allows for simple implementation of parsers. Each file is generally assigned a name for the data that the message carries.
 
