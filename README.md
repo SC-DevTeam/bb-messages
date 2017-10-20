@@ -1,9 +1,9 @@
-Protocol Definition Files
+[Boom Beach] Protocol Definition Files
 =========================
 
-Clash messages are passed between client and server in PDUs containing an integer message identifier
+Messages are passed between client and server in PDUs containing an integer message identifier
 and a binary payload. The files in this package are used to map the identifier to a message
-structure definition so that the binary payload can be parsed.
+structure definition so that the binary payload can be parsed. This is used in every Supercell game.
 
 Each message structure is defined in an individual JSON file. The name of the file is not
 significant, but generally it corresponds to the type name of the message.
