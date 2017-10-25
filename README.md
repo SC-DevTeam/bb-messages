@@ -5,7 +5,7 @@ Through Supercell games' protocols, are messages that are passed between the cli
 
 The files have message structures, which are formatted in JSON for wide-range compatibility with other languages and allows for simple implementation of parsers. Each file is generally assigned a name for the data that the message carries.
 
-**Things to note**
+## Things to note
 
 Boom Beach does not use Varints/Rrsints (normal int is used instead), however instead it uses lots of Zip Strings.
 
