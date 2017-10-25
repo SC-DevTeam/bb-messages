@@ -50,6 +50,12 @@
 	{"type": "SCSV[]", "lengthType": "INT"},
 	{"type": "SCSV[]", "lengthType": "INT"},
 	{"type": "BOOLEAN"},
-	
+	{"type": "BYTE[36]"},
+	{"type": "STRING"},
+	{"type": "BOOLEAN"},
+	{"type": "INT"},
+	{"type": "STRING"},
+	{"type": "STRING"},
+	{"type": "STRING"}
   ]
 }
