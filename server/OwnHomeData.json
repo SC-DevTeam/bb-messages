@@ -1,0 +1,25 @@
+{
+  "id": 24101,
+  "name": "OwnHomeData",
+  "fields": [
+    {"type": "INT"},
+	{"name": "userId", "type": "LONG"},
+	{"name": "levelPath", "type": "STRING"},
+	{"type": "STRING"},
+	{"type": "BOOLEAN"},
+	{"name": "homeData", "type": "STRING"},
+	{"name": "userId2", "type": "LONG"},
+	{"name": "homeId", "type": "LONG"},
+	{"type": "INT"},
+	{"name": "usernameSet", "type": "BOOLEAN"},
+	{"name": "username", "type": "STRING"},
+	{"type": "STRING"},
+	{"type": "INT"},
+	{"type": "INT"},
+	{"type": "INT"},
+	{"type": "INT"},
+	{"type": "LONG"},
+	{"type": "INT"},
+	{"type": "LONG"}
+  ]
+}

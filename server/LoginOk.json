@@ -10,6 +10,11 @@
     {"name": "serverMajorVersion", "type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
-	{"name": "environment", "type": "STRING"}
+	{"name": "environment", "type": "STRING"},
+	{"type": "STRING"},
+	{"name": "countryCode", "type": "STRING"},
+	{"type": "STRING"},
+	{"name": "facebookAppId", "type": "STRING"},
+	{"type": "ZIP_STRING"}
   ]
 }
