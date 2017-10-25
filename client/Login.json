@@ -14,7 +14,7 @@
     {"type": "INT"},
     {"name": "preferredDeviceLanguage", "type": "STRING"},
     {"type": "STRING"},
-    {"type": "STRING"},
+    {"name": "deviceFirmwareVersion", "type": "STRING"},
     {"type": "BYTE"},
     {"type": "STRING"},
     {"type": "STRING"},
