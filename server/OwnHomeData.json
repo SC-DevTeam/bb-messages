@@ -23,7 +23,7 @@
 	{"type": "LONG"},
 	{"type": "BOOLEAN"},
 	{"type": "SCSV[]", "lengthType": "INT"},
-	{"type": "SCSV[]", "lengthType": "INT"},
+	{"name": "userResources", "type": "SCSV[]", "lengthType": "INT"},
 	{"type": "SCSV[]", "lengthType": "INT"},
 	{"type": "SCSV[]", "lengthType": "INT"},
 	{"type": "INT"},
