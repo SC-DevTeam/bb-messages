@@ -1,0 +1,34 @@
+{
+  "name": "ClientCommandComponent",
+  "fields": [
+    {"name": "id", "type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 18,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "startTimestamp", "type": "TIMESTAMP"},
+        {"name": "endTimestamp", "type": "TIMESTAMP"},
+        {"name": "csvID", "type": "INT"}
+      ]
+    },
+    {
+      "id": 595,
+      "name": "Update ??? (Unknown)",
+      "fields": [
+        {"type": "SCSV"}
+      ]
+    },
+    {
+      "id": 700,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    }
+  ]
+}

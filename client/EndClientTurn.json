@@ -1,0 +1,11 @@
+{
+  "id": 14102,
+  "name": "EndClientTurn",
+  "fields": [
+    {"name": "startTick", "type": "INT"},
+    {"name": "endTick", "type": "INT"},
+    {"name": "checksum", "type": "INT"},
+    {"type": "BOOLEAN"},
+    {"name": "clientCommands", "type": "ClientCommandComponent[]", "lengthType": "INT"}
+  ]
+}
