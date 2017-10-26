@@ -8,8 +8,8 @@
 
     {"name": "gameCenterId", "type": "STRING"},
     {"name": "facebookId", "type": "STRING"},
-    
-	{"name": "serverMajorVersion", "type": "INT"},
+
+    {"name": "serverMajorVersion", "type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
 
