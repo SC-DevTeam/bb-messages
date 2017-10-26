@@ -10,8 +10,8 @@
     {"name": "facebookId", "type": "STRING"},
 
     {"name": "serverMajorVersion", "type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
+    {"name": "serverMinorVersion", "type": "INT"},
+    {"name": "serverBuild", "type": "INT"},
 
     {"name": "environment", "type": "STRING"},
     {"name": "serverTimestamp", "type": "STRING"},
@@ -29,7 +29,7 @@
     {"type": "STRING"},
 
     {"type": "STRING[]", "lengthType": "INT"},
-    {"type": "STRING[]", "lengthType": "INT"},
+    {"name": "gameAssetURLs", "type": "STRING[]", "lengthType": "INT"},
 
     {"type": "STRING"}
   ]

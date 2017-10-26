@@ -1,0 +1,19 @@
+{
+  "name": "ServerCommandComponent",
+  "fields": [
+    {"name": "id", "type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 18,
+      "name": "EventDataCommand",
+      "fields": [
+        {"name": "eventName", "type": "STRING[]", "lengthType": "INT"},
+        {"name": "startTimestamp", "type": "TIMESTAMP"},
+        {"name": "endTimestamp", "type": "TIMESTAMP"},
+        {"name": "eventCsvID", "type": "INT"},
+        {"name": "eventActive", "type": "BOOLEAN"}
+      ]
+    }
+  ]
+}
