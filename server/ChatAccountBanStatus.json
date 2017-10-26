@@ -1,0 +1,7 @@
+{
+  "id": 20118,
+  "name": "ChatAccountBanStatus",
+  "fields": [
+    {"name": "time", "type": "INT"}
+  ]
+}

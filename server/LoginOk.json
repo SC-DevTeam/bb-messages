@@ -5,16 +5,32 @@
     {"name": "userId", "type": "LONG"},
     {"name": "homeId", "type": "LONG"},
 	{"name": "userToken", "type": "STRING"},
-    {"name": "gameCenterId", "type": "STRING"},
+    
+	{"name": "gameCenterId", "type": "STRING"},
     {"name": "facebookId", "type": "STRING"},
-    {"name": "serverMajorVersion", "type": "INT"},
+    
+	{"name": "serverMajorVersion", "type": "INT"},
+	{"type": "INT"},
     {"type": "INT"},
-    {"type": "INT"},
+	
 	{"name": "environment", "type": "STRING"},
-	{"type": "STRING"},
+	{"name": "serverTimestamp", "type": "STRING"},
 	{"name": "countryCode", "type": "STRING"},
+	{"name": "accountCreatedTimestamp", "type": "STRING"},
+	
+	{"name": "googleId", "type": "STRING"},
+	
+	{"type": "BYTE", "comment": "Strange value..."},
+	{"name": "updates", "type": "ZIP_STRING"},
+	
+	{"type": "BOOLEAN", "comment": "This is meant to be ?LoginOkFlag[INT], but the definitions parser won't allow it.. needs to be patched"},
+	{"type": "LoginOkFlag[]", "lengthType": "INT"},
+	
 	{"type": "STRING"},
-	{"name": "facebookAppId", "type": "STRING"},
-	{"type": "ZIP_STRING"}
+	
+	{"type": "STRING[]", "lengthType": "INT"},
+	{"type": "STRING[]", "lengthType": "INT"},
+	
+	{"type": "STRING"}
   ]
 }

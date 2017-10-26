@@ -20,7 +20,7 @@
     {"name": "openUdid2", "type": "STRING"},
     {"type": "STRING"},
     {"type": "STRING"},
-    {"type": "BYTE"},
+    {"name": "isX86", "type": "BOOLEAN"},
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
