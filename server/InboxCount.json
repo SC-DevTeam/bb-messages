@@ -1,0 +1,7 @@
+{
+  "id": 24447,
+  "name": "InboxCount",
+  "fields": [
+    {"name": "messageCount", "type": "INT"}
+  ]
+}
