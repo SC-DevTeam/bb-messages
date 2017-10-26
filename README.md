@@ -5,6 +5,10 @@ Through Supercell games' protocols, are messages that are passed between the cli
 
 The files have message structures, which are formatted in JSON for wide-range compatibility with other languages and allows for simple implementation of parsers. Each file is generally assigned a name for the data that the message carries.
 
+## Things to note
+
+Boom Beach does not use Varints/Rrsints (normal int is used instead), however instead it uses lots of Zip Strings.
+
 Type System
 ===========
 
@@ -63,7 +67,13 @@ Five primitive types are defined.
 
 - **RRSLONG:** Two RRSINT32 representing high/low.
 
-- **SCID:** Clash Royale uses ID like 60000000 for achievements. In packets, they often appear as two RRSINT32 (in this case, 0x3C00). You will find this in Regions, Cards and Arenas, etc. (Usually defined in a csv file -- row 0 is 60000000, and so on.)
+- **SCSV:** Boom Beach assigns CSV files unique IDs (for example. 30000000 for resources.csv, where that index refers to the field of 'Name', 'Diamonds'), found inside packets - they are assigned an ID (as an int) and value (as an int). With a structure similar to this,
+```
+{
+    "id": "30000001",
+    "value": "2000"
+}
+```
 
 - **LONG:** Eight bytes, big-endian
 
