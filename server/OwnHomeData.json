@@ -9,52 +9,66 @@
     {"name": "homeData", "type": "STRING||ZIP_STRING"},
     {"name": "userId2", "type": "LONG"},
     {"name": "homeId", "type": "LONG"},
+
     {"type": "INT"},
-    {"name": "usernameSet", "type": "BOOLEAN"},
+
+    {"name": "usernameSet", "type": "BYTE", "comment": "If this field is set to '0', the user's name is 'Commander'. If this is set to '1', the user has set their name before upgrading Radar to level 2. If this is set to '2', user has changed their name once."},
     {"name": "username", "type": "STRING"},
+
     {"type": "STRING"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
+
+    {"name": "experienceLevel", "type": "INT"},
+    {"name": "experiencePoints", "type": "INT"},
+
+    {"name": "diamonds", "type": "INT"},
+    {"name": "diamonds2", "type": "INT"},
+
     {"type": "LONG"},
-    {"type": "INT"},
+
+    {"name": "medals", "type": "INT"},
+
     {"type": "LONG"},
+
     {"type": "BOOLEAN"},
-    {"type": "SCSV[]", "lengthType": "INT"},
+
     {"name": "userResources", "type": "SCSV[]", "lengthType": "INT"},
+    {"name": "userBaseResources", "type": "SCSV[]", "lengthType": "INT"},
     {"type": "SCSV[]", "lengthType": "INT"},
     {"type": "SCSV[]", "lengthType": "INT"},
+
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
+
     {"type": "SCSV[]", "lengthType": "INT"},
+
     {"type": "INT"},
+
     {"type": "SCSV[]", "lengthType": "INT"},
+
     {"type": "INT"},
+
     {"type": "SCSV[]", "lengthType": "INT"},
+
     {"type": "INT"},
+
     {"type": "INT[]", "lengthType": "INT"},
+
+    {"type": "INT"},
+
+    {"type": "SCSV[]", "lengthType": "INT"},
+
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
     {"type": "INT"},
     {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
     {"type": "SCSV[]", "lengthType": "INT"},
     {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "BOOLEAN"},
-    {"type": "BYTE[36]"},
-    {"type": "STRING"},
-    {"type": "BOOLEAN"},
-    {"type": "INT"},
-    {"type": "STRING"},
-    {"type": "STRING"},
-    {"type": "STRING"}
+
+    {"type": "INT[]", "lengthType": "INT"}
   ]
 }

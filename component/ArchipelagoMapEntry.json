@@ -1,0 +1,6 @@
+{
+  "name": "ArchipelagoMapEntry",
+  "fields": [
+    {"type": "BOOLEAN"}
+  ]
+}

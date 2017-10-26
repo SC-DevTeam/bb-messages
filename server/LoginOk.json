@@ -27,11 +27,12 @@
     {"type": "LoginOkFlag[]", "lengthType": "INT"},
 
     {"type": "STRING"},
-    {"type": "STRING[]", "lengthType": "INT"},
 
+    {"type": "INT"},
+    {"type": "STRING"},
     {"type": "STRING"},
 
-    {"type": "STRING[]", "lengthType": "INT"},
-    {"name": "gameAssetURLs", "type": "STRING[]", "lengthType": "INT"}
+    {"name": "gameAssetURLs", "type": "STRING[]", "lengthType": "INT"},
+    {"type": "STRING"}
   ]
 }
