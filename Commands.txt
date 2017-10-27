@@ -1,0 +1,15 @@
+// Boom Beach Commands
+
+-1 = LogicCommand (getCommandType() not implemented)
+
+12 - LogicCoopMissionCompletedCommand
+506 - LogicCollectResourcesCommand
+507 - LogicClearObstacleCommand
+522 - LogicCreateArtifactCommand
+534 - LogicCollectResourceShipCommand
+543 - LogicCreatePrototypeCommand
+550 - LogicConvertFragmentsCommand
+585 - LogicClearMegabaseBattleResultCommand
+592 - LogicClaimTreasureCommand
+605 - LogicDeployLandingShipCommand
+1000 - LogicDebugCommand

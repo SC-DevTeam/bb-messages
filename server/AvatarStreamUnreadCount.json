@@ -1,6 +1,6 @@
 {
   "id": 24497,
-  "name": "Message24497",
+  "name": "AvatarStreamUnreadCount",
   "fields": [
     {"type": "INT[]", "lengthType": "INT"}
   ]

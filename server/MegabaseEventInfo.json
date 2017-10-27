@@ -1,6 +1,6 @@
 {
   "id": 24351,
-  "name": "Message24351",
+  "name": "MegabaseEventInfo",
   "fields": [
     {"type": "INT"},
     {"type": "INT"},

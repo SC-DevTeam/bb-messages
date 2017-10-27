@@ -33,42 +33,12 @@
 
     {"name": "userResources", "type": "SCSV[]", "lengthType": "INT"},
     {"name": "userBaseResources", "type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
 
     {"type": "SCSV[]", "lengthType": "INT"},
-
-    {"type": "INT"},
-
-    {"type": "SCSV[]", "lengthType": "INT"},
-
-    {"type": "INT"},
-
-    {"type": "SCSV[]", "lengthType": "INT"},
-
-    {"type": "INT"},
-
-    {"type": "INT[]", "lengthType": "INT"},
-
-    {"type": "INT"},
-
     {"type": "SCSV[]", "lengthType": "INT"},
 
     {"type": "INT"},
     {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-    {"type": "SCSV[]", "lengthType": "INT"},
-
-    {"type": "INT[]", "lengthType": "INT"}
+    {"type": "INT"}
   ]
 }
