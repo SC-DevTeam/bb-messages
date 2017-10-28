@@ -1,0 +1,11 @@
+{
+  "id": 25100,
+  "name": "SectorData",
+  "fields": [
+    {"type": "BOOLEAN"},
+    {"type": "INT"},
+    {"name": "currentCycle", "type": "STRING"},
+    {"type": "BYTE[20]", "comments": "Possibly cycle timestamps or data for cycle."},
+    {"name": "sectorData", "type": "STRING"}
+  ]
+}

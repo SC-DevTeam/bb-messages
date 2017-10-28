@@ -4,10 +4,13 @@
   "fields": [
     {"name": "accountId", "type": "LONG"},
     {"name": "passToken", "type": "STRING"},
+
     {"name": "clientMajorVersion", "type": "INT"},
-    {"name": "clientMinorVersion", "type": "INT"},
     {"name": "clientBuild", "type": "INT"},
+    {"name": "clientMinorVersion", "type": "INT"},
+
     {"name": "resourceSha", "type": "STRING"},
+
     {"name": "UDID", "type": "STRING"},
     {"name": "openUdid", "type": "STRING"},
     {"name": "device", "type": "STRING"},
@@ -15,12 +18,15 @@
     {"name": "preferredDeviceLanguage", "type": "STRING"},
     {"type": "STRING"},
     {"name": "deviceFirmwareVersion", "type": "STRING"},
+
     {"type": "BYTE"},
     {"type": "STRING"},
     {"name": "openUdid2", "type": "STRING"},
+
     {"type": "STRING"},
     {"type": "STRING"},
-    {"type": "BYTE"},
+    {"name": "isX86", "type": "BOOLEAN"},
+
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},

@@ -1,0 +1,15 @@
+{
+  "id": 24133,
+  "name": "EnemyHomeData",
+  "fields": [
+    {"type": "INT"},
+    {"type": "STRING"},
+    {"type": "INT"},
+    {"name": "enemyId", "type": "LONG"},
+    {"name": "enemyId2", "type": "LONG"},
+    {"type": "INT"},
+    {"name": "enemyNameSet", "type": "BOOLEAN"},
+    {"name" : "enemyName", "type": "STRING"},
+    {"type": "STRING"}
+  ]
+}

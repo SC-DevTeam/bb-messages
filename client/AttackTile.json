@@ -1,0 +1,7 @@
+{
+  "id": 14165,
+  "name": "AttackTile",
+  "fields": [
+    {"type": "INT"}
+  ]
+}

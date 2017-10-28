@@ -1,0 +1,249 @@
+// Boom Beach Messages
+
+// Fetched from LogicMagicMessageFactory::createMessageByType(this, int)
+
+# Client Messages
+
+10159 = KunlunBillingRequestMessage
+10160 = DebugBillingRequestMessage
+10150 = AppleBillingRequestMessage
+10151 = GoogleBillingRequestMessage
+
+10212 = ChangeAvatarNameMessage
+10512 = AskForPlayingGamecenterFriendsMessage
+
+10513 = AskForPlayingFacebookFriendsMessage
+10583 = RequestNpcBaseBuilderTestMessage
+
+10905 = InboxOpenedMessage
+
+10100 = ClientHello
+
+10101 = LoginMessage
+
+10111 = FirstSpeechBubbleSeenMessage
+10112 = AuthenticationCheckMessage
+10113 = SetDeviceTokenMessage
+10116 = ResetAccountMessage
+10117 = ReportUserMessage
+10118 = AccountSwitchedMessage
+10121 = UnlockAccountMessage
+
+14101 = GoHomeMessage
+14102 = EndClientTurnMessage
+
+14104 = AskForTargetHomeListMessage
+14108 = ChangeHomeNameMessage
+14111 = GoToOutpostMessage
+14113 = VisitHomeMessage
+14114 = HomeBattleReplayMessage
+14115 = ShareReplayToAllianceMessage
+14117 = AbandonOutpostMessage
+14119 = VisitOutpostMessage
+14123 = PracticeAttackMessage
+14135 = VisitNpcMessage
+
+14185 = StartHammerManAttackMessage
+14201 = BindFacebookAccountMessage
+
+14211 = UnbindFacebookAccountMessage
+14212 = BindGamecenterAccountMessage
+14262 = BindGoogleServiceAccountMessage
+
+14165 = AttackTileMessage
+14166 = RematchMakeTileMessage
+14167 = AttackCoopBaseMessage
+
+14170 = ScoutCoopBaseMessage
+14171 = StartCoopMissionMessage
+
+14136 = ClaimBattleLogRewardMessage
+
+14301 = CreateAllianceMessage
+14302 = AskForAllianceDataMessage
+14303 = AskForJoinableAlliancesListMessage
+
+14305 = JoinAllianceMessage
+14306 = ChangeAllianceMemberRoleMessage
+14307 = KickAllianceMemberMessage
+14308 = LeaveAllianceMessage
+14310 = IncreaseAllianceMaxSizeMessage
+14311 = SabotageMessage
+14312 = WriteCoopBaseNoteMessage
+14315 = ChatToAllianceStreamMessage
+14316 = ChangeAllianceSettingsMessage
+14317 = RequestJoinAllianceMessage
+14318 = AllianceBattleReplayMessage
+14319 = PinAllianceStreamMessage
+14320 = AskForAllianceMemberStatsMessage
+14321 = RespondToAllianceJoinRequestMessage
+14322 = SendAllianceInvitationMessage
+14323 = JoinAllianceUsingInvitationMessage
+14324 = SearchAlliancesMessage
+14325 = ReportAllianceStreamMessage
+14328 = AskForOperationSlackersMessage
+14331 = PostChallengeMessage
+14358 = CanCreateAllianceRequestMessage
+
+14363 = CensorAllianceStreamMessage
+14366 = CoopBattleReplayMessage
+
+16000 = LogicDeviceLinkCodeRequestMessage
+16001 = LogicDeviceLinkMenuClosedMessage
+16002 = LogicDeviceLinkEnterCodeMessage
+16003 = LogicDeviceLinkConfirmYesMessage
+
+14999 = ChallengeBattleReplayMessage
+15000 = VisitChallengeBaseMessage
+15004 = CoopRequestLiveReplayMessage
+15005 = CoopStopLiveReplayMessage
+15006 = CoopBattleLogReadMessage
+
+14500 = AskForChallengeBaseDataMessage
+14715 = SendGlobalChatLineMessage
+
+14401 = AskForAllianceRankingListMessage
+14403 = AskForAvatarRankingListMessage
+14404 = AskForAvatarLocalRankingListMessage
+14405 = AskForAvatarStreamMessage
+14406 = AskForTaskforceMegabaseAvatarRankingListMessage
+14407 = AskForLocalMegabaseAvatarRankingListMessage
+14408 = AskForGlobalMegabaseAvatarRankingListMessage
+14409 = AskForCustomMegabaseAvatarRankingListMessage
+14418 = RemoveAvatarStreamEntryMessage
+
+# Unused Client Messages
+
+10103 - CreateAccountMessage
+10107 - ClientCapabilitiesMessage
+
+# Server Messages
+
+20000 = ExtendedSetEncryptionMessage
+
+20121 = BillingRequestFailedMessage
+20132 = UnlockAccountOkMessage
+20117 = ReportUserStatusMessage
+20118 = ChatAccountBanStatusMessage
+
+20100 = ServerHello
+20103 = LoginFailedMessage
+20104 = LoginOkMessage
+20105 = FriendListMessage
+
+24200 = FindHomeFailedMessage
+24201 = FacebookAccountBoundMessage
+24202 = FacebookAccountAlreadyBoundMessage
+24211 = GamecenterAccountBoundMessage
+24212 = GamecenterAccountAlreadyBoundMessage
+24214 = FacebookAccountUnboundMessage
+
+24261 = GoogleServiceAccountBoundMessage
+24262 = GoogleServiceAccountAlreadyBoundMessage
+
+20151 = AppleBillingProcessedByServerMessage
+20152 = GoogleBillingProcessedByServerMessage
+20153 = DebugBillingProcessedByServerMessage
+20156 = KunlunBillingProcessedByServerMessage
+20161 = ShutdownStartedMessage
+
+20133 = UnlockAccountFailedMessage
+20171 = MaintenanceInboundMessage
+
+24101 = OwnHomeDataMessage
+24102 = FindHomeResultMessage
+24103 = AttackHomeFailedMessage
+24104 = OutOfSyncMessage
+24105 = TargetHomeListMessage
+24106 = AttackReportListMessage
+24107 = EnemyHomeDataMessage
+
+24109 = HomeStatusListMessage
+24110 = GoToOutpostFailedMessage
+24111 = AvailableServerCommandMessage
+24112 = WaitingToGoHomeMessage
+24113 = VisitedHomeDataMessage
+24114 = HomeBattleReplayDataMessage
+24115 = ServerErrorMessage
+24116 = HomeBattleReplayFailedMessage
+24117 = CanProceedMessage
+24118 = LiveReplayHeaderMessage
+24119 = LiveReplayDataMessage
+24127 = LiveReplayFailedMessage
+24130 = OnlineProtectionTimeRunningOutMessage
+24131 = ForceDisconnectMessage
+24133 = NpcDataMessage
+24141 = VisitFailedMessage
+24142 = NpcBaseBuildFailedMessage
+24165 = CoopBaseStatusMessage
+24166 = CoopMissionDataMessage
+24168 = AttackCoopBaseFailedMessage
+24169 = CoopMissionStartFailedMessage
+24172 = CoopOwnAttacksMessage
+24173 = ScoutCoopBaseFailedMessage
+24177 = NoteEditedMessage
+24178 = CoopBaseRealTimeStatusMessage
+
+20205 = AvatarNameChangeFailedMessage
+
+24715 = GlobalChatLineMessage
+25100 = ChronosEventsMessage
+25892 = DisconnectedMessage
+
+26002 = LogicDeviceLinkCodeResponseMessage
+26003 = LogicDeviceLinkNewDeviceLinkedMessage
+26004 = LogicDeviceLinkCodeDeactivatedMessage
+26005 = LogicDeviceLinkReponseMessage
+26007 = LogicDeviceLinkDoneMessage
+26008 = LogicDeviceLinkErrorMessage
+
+24445 = InboxListMessage
+24447 = InboxCountMessage
+
+24448 = BoomboxInfoMessage
+24497 = AvatarStreamUnreadCountMessage
+24501 = ChallengeBaseDataMessage
+
+24401 = AllianceRankingListMessage
+24403 = AvatarRankingListMessage
+
+24411 = AvatarStreamMessage
+24412 = AvatarStreamEntryMessage
+24418 = AvatarStreamEntryRemovedMessage
+
+24301 = AllianceDataMessage
+24302 = AllianceJoinFailedMessage
+24303 = AllianceJoinOkMessage
+24304 = JoinableAllianceListMessage
+24305 = AllianceLeaveOkMessage
+24306 = ChangeAllianceMemberRoleOkMessage
+24307 = KickAllianceMemberOkMessage
+24308 = AllianceMemberMessage
+24309 = AllianceMemberRemovedMessage
+24310 = AllianceListMessage
+24311 = AllianceStreamMessage
+24312 = AllianceStreamEntryMessage
+24313 = ChangeAllianceSettingsOkMessage
+24314 = SabotageResultMessage
+24318 = AllianceStreamEntryRemovedMessage
+24319 = AllianceJoinRequestOkMessage
+24320 = AllianceJoinRequestFailedMessage
+24321 = AllianceInvitationSendFailedMessage
+24322 = AllianceInvitationSentOkMessage
+24328 = AllianceDataFailedMessage
+24332 = AllianceCreateFailedMessage
+24333 = AllianceChangeFailedMessage
+24334 = ReplayShareFailedMessage
+24342 = OperationSlackersMessage
+24350 = AllianceMemberStatsMessage
+24351 = MegabaseEventInfoMessage
+24352 = IntelMessage
+24353 = CoopMissionConfigurationMessage
+24356 = CanCreateAllianceResponseMessage
+
+24377 = SabotageCostMessage
+
+# Unused Server Messages
+
+20101 - CreateAccountFailedMessage
+20104 - AuthenticationResponseMessage (Old LoginOkMessage)

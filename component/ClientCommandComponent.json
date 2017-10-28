@@ -1,0 +1,75 @@
+{
+  "name": "ClientCommandComponent",
+  "fields": [
+    {"name": "id", "type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 18,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "startTimestamp", "type": "TIMESTAMP"},
+        {"name": "endTimestamp", "type": "TIMESTAMP"},
+        {"name": "csvID", "type": "INT"}
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "BOOLEAN"},
+        {"type": "INT"},
+        {"type": "STRING"},
+        {"type": "INT"}
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    },
+    {
+      "id": 508,
+      "name": "Unknown",
+      "fields": [
+
+      ]
+    },
+    {
+      "id": 595,
+      "name": "UpdateResource",
+      "fields": [
+        {"type": "SCSV"}
+      ]
+    },
+    {
+      "id": 604,
+      "name": "Unknown",
+      "fields": [
+
+      ]
+    },
+    {
+      "id": 605,
+      "name": "LogicDeployLandingShipCommand",
+      "fields": [
+
+      ]
+    },
+    {
+      "id": 700,
+      "name": "Unknown",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    }
+  ]
+}
